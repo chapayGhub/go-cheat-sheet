@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// Declaring and instancing
 	monthdays := map[string]int {
@@ -9,6 +11,9 @@ func main() {
 		"Oct": 31, "Nov": 30, "Dec": 31, // Comma required
 	}
 	println(monthdays["Jan"])
+	for k, _ := range monthdays {
+		fmt.Println(k, monthdays[k])
+	}
 
 	// Just instancing
 	monthdays2 := make(map[string]int)

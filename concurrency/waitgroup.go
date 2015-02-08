@@ -1,12 +1,11 @@
 package main
 
 import (
-	"testing"
 	"sync"
 	"log"
 )
 
-func Test_UsingWaitGroup(t *testing.T) {
+func main() {
 	var done sync.WaitGroup
 	for i := 0; i < 4; i++ {
 		done.Add(1)

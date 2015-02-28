@@ -1,9 +1,8 @@
 GO Cheat sheet
 ==============
 
-Compile file and execute binary file using the following commands:
+```
+$ go run yourfile.go
+```
 
-```
-$ go build yourfile.go
-$ ./yourfile
-```
+Search your file by pressing `t` (press `shift+?` to see all Github shortcuts).
